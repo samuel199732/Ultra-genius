@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 3561a7bd827347447a80b2b16aae0b75
+timeCreated: 1460414807
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: base
+    21300002: amarelo
+    21300004: azul
+    21300006: verde
+    21300008: vermelho
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: base
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 692
+        width: 324
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 136, y: -95}
+        - {x: 151, y: -69}
+        - {x: 158, y: -50}
+        - {x: 162, y: -35}
+        - {x: 162, y: 37}
+        - {x: 158, y: 48}
+        - {x: 152, y: 69}
+        - {x: 133, y: 100}
+        - {x: 121, y: 113}
+        - {x: 87, y: 143}
+        - {x: 45, y: 161}
+        - {x: 39, y: 162}
+        - {x: -42, y: 162}
+        - {x: -63, y: 154}
+        - {x: -81, y: 144}
+        - {x: -103, y: 129}
+        - {x: -123, y: 111}
+        - {x: -139, y: 91}
+        - {x: -155, y: 60}
+        - {x: -160, y: 44}
+        - {x: -162, y: 31}
+        - {x: -162, y: -30}
+        - {x: -161, y: -36}
+        - {x: -155, y: -60}
+        - {x: -139, y: -92}
+        - {x: -110, y: -124}
+        - {x: -86, y: -142}
+        - {x: -57, y: -157}
+        - {x: -32, y: -162}
+        - {x: 32, y: -162}
+        - {x: 62, y: -155}
+        - {x: 96, y: -136}
+        - {x: 123, y: -111}
+    - name: amarelo
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 525
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 71}
+        - {x: -71, y: 29}
+        - {x: -55, y: -15}
+        - {x: 15, y: -71}
+        - {x: 71, y: -71}
+        - {x: 71, y: 48}
+        - {x: 48, y: 71}
+    - name: azul
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 525
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 71}
+        - {x: -71, y: 50}
+        - {x: -71, y: -71}
+        - {x: -10, y: -71}
+        - {x: 57, y: -29}
+        - {x: 71, y: 32}
+        - {x: 71, y: 71}
+    - name: verde
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 358
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: -20}
+        - {x: -71, y: -71}
+        - {x: 50, y: -71}
+        - {x: 71, y: -50}
+        - {x: 71, y: 71}
+        - {x: 3, y: 71}
+        - {x: -13, y: 69}
+    - name: vermelho
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 358
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 71}
+        - {x: -71, y: 71}
+        - {x: -71, y: -49}
+        - {x: -48, y: -71}
+        - {x: 71, y: -71}
+        - {x: 71, y: -17}
+        - {x: 31, y: 60}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
