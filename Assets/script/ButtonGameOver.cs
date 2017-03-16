@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-public class ButtonGameOver : MonoBehaviour {
+public class ButtonGameOver : MonoBehaviour{
     private game_loop game;
     [SerializeField]
     private GameObject buttonGameOver;
