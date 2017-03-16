@@ -9,14 +9,14 @@ public class ButtonGameOver : MonoBehaviour {
     private Text score;
     private Vector2 positionStart;
 	// Use this for initialization
-	void Start()
+    void Start()
     {
         game = GetComponent<game_loop>();
         positionStart = score.transform.position;
 	}
 	
 	// Update is called once per frame
-	void Update ()
+    void Update ()
     {
 	    if(game != null && game.IsGameOver)
         {
@@ -30,5 +30,5 @@ public class ButtonGameOver : MonoBehaviour {
         }
         if (game != null)
             score.text = game.Score.ToString();
-    }
+     }
 }
