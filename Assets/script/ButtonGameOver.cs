@@ -13,7 +13,7 @@ public class ButtonGameOver : MonoBehaviour {
     {
         game = GetComponent<game_loop>();
         positionStart = score.transform.position;
-	}
+    }
 	
 	// Update is called once per frame
     void Update ()
