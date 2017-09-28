@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 public class ButtonGameOver : MonoBehaviour {
@@ -7,12 +7,18 @@ public class ButtonGameOver : MonoBehaviour {
     private GameObject buttonGameOver;
     [SerializeField]
     private Text score;
+    [SerializeField]
+    private Text bestScore;
     private Vector2 positionStart;
+    private Save save;
 	// Use this for initialization
     void Start()
     {
+        save = GetComponent<Save>();
+        bestScore.text = save.getint().ToString();
         game = GetComponent<game_loop>();
         positionStart = score.transform.position;
+        
     }
 	
 	// Update is called once per frame
@@ -22,6 +28,11 @@ public class ButtonGameOver : MonoBehaviour {
         {
             buttonGameOver.SetActive(true);
             score.transform.position = new Vector2( 0,0 );
+            if(game.Score > save.getint())
+            {
+                save.saveScore(game.Score);
+                bestScore.text = save.getint().ToString();
+            }
         }
         else
         {
